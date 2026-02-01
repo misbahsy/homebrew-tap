@@ -1,6 +1,6 @@
 cask "ccb" do
   version "0.1.0"
-  sha256 "eed4828e6a4f1dbafc01ce4ab58231065bff969339bb0e6c7a513b90ee6b1e36"
+  sha256 "39504f1ab3e1578d22cdb7e8104187b8d6e8241a1667030299c482d0fd81756a"
 
   url "https://github.com/misbahsy/cc-bridge/releases/download/v#{version}/CCB-#{version}-arm64.zip"
   name "CCB"
