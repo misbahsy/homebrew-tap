@@ -1,8 +1,8 @@
 class CcBridge < Formula
   desc "Bridge messaging platforms (Telegram, Discord) to Claude Code"
   homepage "https://github.com/misbahsy/cc-bridge"
-  url "https://registry.npmjs.org/cc-bridge/-/cc-bridge-0.1.1.tgz"
-  sha256 "66f1a0dabb7a2d0c666dd17948055b284fafbea231800e6ed4d090df061e99f6"
+  url "https://registry.npmjs.org/cc-bridge/-/cc-bridge-0.1.2.tgz"
+  sha256 "6efddca7912f2bb8cc806b14ad43436f4e564eaf72cde919cda661670b7d9360"
   license "MIT"
 
   depends_on "node@20"
