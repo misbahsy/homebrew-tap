@@ -9,6 +9,10 @@ class CcBridge < Formula
 
   def install
     system "npm", "install", *std_npm_args
+    # Rebuild native modules (better-sqlite3) since std_npm_args uses --ignore-scripts
+    cd libexec/"lib/node_modules/cc-bridge" do
+      system "npm", "rebuild", "better-sqlite3"
+    end
     bin.install_symlink libexec/"bin/ccb"
   end
 
